@@ -43,7 +43,7 @@ header{
 
 }
 header .left{
-    background-color: #DCEAF5;
+    /* background-color: #DCEAF5; */
     flex: 1;
     padding-top: 117px;
     padding-left: 325px;
@@ -52,7 +52,7 @@ header .left div{
     max-width: 576px;
 }
 header .right{
-    background-color:#DCEAF5;
+    /* background-color:#DCEAF5; */
     flex: 1;
 }
 header div h1{
