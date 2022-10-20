@@ -258,7 +258,7 @@ margin-bottom: 25px;margin-top: 88px;
 }
 #doloo #ceo{
     flex: 1;
-    /* margin-left: 320px; */
+    margin-left: 320px;
 }
 #doloo #ceo h1{
     margin-top:206px;
@@ -310,3 +310,7 @@ height: 501px;
     background: #F58A07;
     transform: rotate(90deg);
 } */
+#naim{
+    background-color: #DCEAF5;
+    margin-top: 128px;
+}
