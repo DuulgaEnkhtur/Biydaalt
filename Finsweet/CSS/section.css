@@ -38,6 +38,12 @@
     color: #F58A07;
     margin-top: 24px;
 }
+.learnmore::after{
+    content: "\2192";
+    color: #F58A07;
+    text-align: center;
+    margin-left: 5px;
+}
 
 
 #hoyr{ 
@@ -172,6 +178,7 @@ aside div{
     display: flex;
     list-style: none;
     margin-top: 48px;
+    
 }
 #team ul li{
     border: 1px solid #A8BCCC;
@@ -179,6 +186,7 @@ aside div{
     color: rgba(6, 50, 85, 0.3);
     padding: 8px 24px;
     margin-right: 24px;
+    margin-top: 48px;
 }
 #team ul li:hover{
     background-color: white;
@@ -226,6 +234,9 @@ margin-bottom: 48px;
     border-radius: 20px 0px 0px 20px;
     background: #F58A07;
     mix-blend-mode: multiply;
+    position: absolute;
+    right: 380px;
+    bottom: 50px;
 }
 
 #job-vacations{
@@ -269,100 +280,109 @@ margin-bottom: 48px;
     max-width: 1280px;
     margin: auto;
 }
-#doloo #ceo{
+#ceo{
     flex: 1;
-    background-color: #9C9C9C;
     padding-right: 110px;
 }
-#doloo #ceo h1{
+#ceo h1{
     margin-top:206px;
     max-width: 550px;
     font-size: 48px;
 }
-#doloo #ceo p{
+#ceo p{
     margin-top:24px;
     max-width: 550px;
     font-size: 18px;
 }
-#doloo #ceo div{
+#ceo div{
     margin-top: 40px;
     display: flex;
 }
-#doloo #ceo div div{
+#ceo_ner{
     display: flex;
     flex-direction: column;
     margin-left:24px ;
 }
-#doloo #ceo div div h6{
+#ceo h5{
+    color: #063255;
+    font-size: 24px;
+    margin-top: 10px;
+}
+#ceo h6{
     margin-top: 16px;
     color: #F58A07;
     font-size: 18px;
 }
-#doloo #ceo div div h5{
-    color: #063255;
-    font-size: 24px;
-}
 
-#doloo #video{
+#video{
 flex: 1;
-margin-top: 128px;
-background-color: lightgray;
+margin: 128px 0 128px 0;
+/* margin-top: 128px;
+margin-bottom: 128px; */
+position: relative;
 }
-#doloo #video div{
-background-image: url(/Finsweet/images/video-image.png);
-width: 620px;
-height: 501px;
+#video p{
+font-size: 18px;
+color: white;
+position: absolute;
+top: 426px;
+left: 108px;
 }
-#video div{
+#playbutton{
     background: #FFFFFF;
     width: 51px;
     height: 51px;
     border-radius: 50%;
+    position: absolute;
+    top:410px;
+    left: 40px;
+    padding-top: 17px;
+    padding-left: 20px;
 }
-/* #play{
-    width: 17px;
-    height: 17px;
-    background: #F58A07;
-    transform: rotate(90deg);
-} */
+#playbutton img{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
 #naim{
     background-color: #DCEAF5;
-    margin-top: 128px;
+}
+#naim_neg{
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: auto;
 }
 #naim h1{
     font-size: 48px;
     color: #0D1317;
     margin-top: 96px;
-    margin-left: 320px;
-
 }
+
 #naim main{
     margin-top: 64px;
-    margin-left: 320px;
-    display: flex;
     margin-bottom: 96px;
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: space-between;
 }
-#naim div{
+.naim_column{
     background-color: white;
     height: 507px;
-    width: 400px;
+    max-width: 400px;
     border-radius: 20px;
-    margin-right: 24px;
 }
 .naimzurag{
-width: 400px;
-height: 230px;
-border-radius: 20px;
+    border-radius:20px 20px 0px 0px;
 }
-#naim div h4{
+.naim_column h4{
     font-size: 24px;
     max-width: 336px;
     margin-left: 32px;
     margin-top: 32px;
     margin-bottom: 16px;
 }
-#naim div p{
+.naim_column p{
     font-size: 16px;
     max-width: 336px;
     margin-left: 32px;
@@ -371,9 +391,13 @@ border-radius: 20px;
 footer{
     height: 463px;
     background-color: #063255;
-    display: flex;
     position: relative;
-    justify-content: space-around;
+}
+footer main{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 #hol1{
     background: #F58A07;
@@ -385,7 +409,6 @@ footer{
     left: 0px;
 }
 #hol2{
-
     max-width: 351px;
 }
 #hol2 #finslogo{
