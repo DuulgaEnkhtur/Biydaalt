@@ -1,7 +1,12 @@
 #neg{
-    box-sizing: border-box;
+
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-bottom: 96px;
+}
+#we-help-section{
+    max-width: 1280px;
+    margin: auto;
 }
 #sectionh{
     max-width: 750px;
@@ -32,6 +37,12 @@
 .learnmore{
     color: #F58A07;
     margin-top: 24px;
+}
+.learnmore::after{
+    content: "\2192";
+    color: #F58A07;
+    text-align: center;
+    margin-left: 5px;
 }
 
 
@@ -94,15 +105,13 @@ margin-left: 39px;
 }
 
 #gurav{
-    display: flex;
-    flex-direction: column;
-}
-#about{
-    display: flex;
     max-width: 1280px;
     margin: auto;
 }
+#about{
+    display: flex;
 
+}
 #about div h1{
     margin-top: 166px;
     max-width: 596px;
@@ -147,19 +156,29 @@ aside div{
     mix-blend-mode: multiply;
     border-radius: 20px 0 0 20px;
 }
-#team{
-    /* display: flex; */
+#four {
     max-width: 1280px;
     margin: auto;
+    padding: 0 48px;
     background: #EDF7FF;
     border-radius: 20px;
+    position: relative;
+}
+#four img{
+    position: absolute;
+    right: -15px;
+    top: -15px;
+}
+#team{
+    border-radius: 20px;
+    padding-left: 48px;
+    padding-right: 43px;
 }
 #team ul{
     display: flex;
     list-style: none;
-    margin-top: 56px;
-    margin-left: 48px;
-    padding: 0;
+    margin-top: 48px;
+    
 }
 #team ul li{
     border: 1px solid #A8BCCC;
@@ -167,6 +186,7 @@ aside div{
     color: rgba(6, 50, 85, 0.3);
     padding: 8px 24px;
     margin-right: 24px;
+    margin-top: 48px;
 }
 #team ul li:hover{
     background-color: white;
@@ -177,16 +197,17 @@ aside div{
     display: flex;
 }
 #teamtext{
-    margin-left: 48px;
-    margin-top: 80px;
+    /* margin-left: 48px; */
+    /* margin-top: 80px; */
 }
 #teamtext h1{
-font-weight: 600;
-font-size: 48px;
-line-height: 56px;
-color: #0D1317;
-max-width: 572px;
-margin-bottom: 25px;margin-top: 88px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #0D1317;
+    max-width: 572px;
+    margin-bottom: 25px;
+    margin-top: 80px;
 }
 #teamtext p{
     font-size: 18px;
@@ -194,19 +215,18 @@ margin-bottom: 25px;margin-top: 88px;
     max-width: 510px;
     margin-bottom: 40px;
 }
-#teamtext p:nth-child(3){
+#teamtext p:nth-child(4){
     color: #F58A07;
 }
 #teamimg{
-    background-image: url("/Finsweet/images/team.png");
-    width: 472px;
-    height: 466px;
-    background-size:     cover;        
-    background-repeat:   no-repeat;
-    background-position: center center; 
-    border-radius: 20px;
-    margin-right: 43px;
-    margin-top: 168px;
+    margin-top: 80px;
+    margin-bottom: 48px;
+    justify-content: flex-end;
+}
+#teamimg img{
+margin-top: 168px;
+margin-right: 43px;
+margin-bottom: 48px;
 }
 #teamimg div{
     width: 120px;
@@ -214,6 +234,9 @@ margin-bottom: 25px;margin-top: 88px;
     border-radius: 20px 0px 0px 20px;
     background: #F58A07;
     mix-blend-mode: multiply;
+    position: absolute;
+    right: 380px;
+    bottom: 50px;
 }
 
 #job-vacations{
@@ -254,59 +277,210 @@ margin-bottom: 25px;margin-top: 88px;
 }
 #doloo{
     display: flex;
-    justify-content: space-evenly;
+    max-width: 1280px;
+    margin: auto;
 }
-#doloo #ceo{
+#ceo{
     flex: 1;
-    /* margin-left: 320px; */
+    padding-right: 110px;
 }
-#doloo #ceo h1{
+#ceo h1{
     margin-top:206px;
     max-width: 550px;
     font-size: 48px;
 }
-#doloo #ceo p{
+#ceo p{
     margin-top:24px;
     max-width: 550px;
     font-size: 18px;
 }
-#doloo #ceo div{
+#ceo div{
     margin-top: 40px;
     display: flex;
 }
-#doloo #ceo div div{
+#ceo_ner{
     display: flex;
     flex-direction: column;
     margin-left:24px ;
 }
-#doloo #ceo div div h6{
+#ceo h5{
+    color: #063255;
+    font-size: 24px;
+    margin-top: 10px;
+}
+#ceo h6{
     margin-top: 16px;
     color: #F58A07;
     font-size: 18px;
 }
-#doloo #ceo div div h5{
-    color: #063255;
-    font-size: 24px;
-}
 
-#doloo #video{
+#video{
 flex: 1;
-margin-top: 128px;
+margin: 128px 0 128px 0;
+/* margin-top: 128px;
+margin-bottom: 128px; */
+position: relative;
 }
-#doloo #video div{
-background-image: url(/Finsweet/images/video-image.png);
-width: 620px;
-height: 501px;
+#video p{
+font-size: 18px;
+color: white;
+position: absolute;
+top: 426px;
+left: 108px;
 }
-#video div{
+#playbutton{
     background: #FFFFFF;
     width: 51px;
     height: 51px;
     border-radius: 50%;
+    position: absolute;
+    top:410px;
+    left: 40px;
+    padding-top: 17px;
+    padding-left: 20px;
 }
-/* #play{
-    width: 17px;
-    height: 17px;
+#playbutton img{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+#naim{
+    background-color: #DCEAF5;
+}
+#naim_neg{
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: auto;
+}
+#naim h1{
+    font-size: 48px;
+    color: #0D1317;
+    margin-top: 96px;
+}
+
+#naim main{
+    margin-top: 64px;
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+.naim_column{
+    background-color: white;
+    height: 507px;
+    max-width: 400px;
+    border-radius: 20px;
+}
+.naimzurag{
+    border-radius:20px 20px 0px 0px;
+}
+.naim_column h4{
+    font-size: 24px;
+    max-width: 336px;
+    margin-left: 32px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.naim_column p{
+    font-size: 16px;
+    max-width: 336px;
+    margin-left: 32px;
+    margin-bottom: 24px;
+}
+footer{
+    height: 463px;
+    background-color: #063255;
+    position: relative;
+}
+footer main{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#hol1{
     background: #F58A07;
-    transform: rotate(90deg);
-} */
+    width: 53px;
+    height: 144px;
+    border-radius: 0px 20px 0px 0px;    
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#hol2{
+    max-width: 351px;
+}
+#hol2 #finslogo{
+    margin-top: 80px;
+}
+#hol2 h2{
+    color: white;
+    font-size: 36px;
+    margin-top: 32px;
+}
+#hol2 img{
+    margin-top: 33px;
+    margin-right: 24px;
+    text-align: center;
+}
+#hol2 p{
+    color: white;
+    margin-top: 83px;
+}
+#hol3 h5{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+#hol3 p{
+    margin-top: 16px;
+    color: #FFFFFF;
+}
+#hol4 h5{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+#hol4 p{
+    margin-top: 16px;
+    color: #FFFFFF;
+}
+#hol5 h5{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+#hol5 #email{
+    background: #FFFFFF;
+    border-radius: 31px;
+    margin-top: 24px;
+    color: #9C9C9C;
+    padding: 18px 188px 18px 32px;
+}
+#hol5 #Subscribe{
+    background: #F58A07;
+    border-radius: 31px;
+    margin-top: 16px;
+    color: white;
+    padding: 18px 32px;
+    max-width: 156px;
+}
+#hol5 p{
+    color: white;
+    text-align: right;
+    margin-top: 104px;
+    display: inline-block;
+}
+#hol5 p:nth-child(2){
+    margin-left: 32px;
+}
+#hol6{
+    background: #F58A07;
+    width: 53px;
+    height: 287px;
+    border-radius: 20px 0px 0px 20px;    
+    position: absolute;
+    top: 38px;
+    right: 0px;
+}
