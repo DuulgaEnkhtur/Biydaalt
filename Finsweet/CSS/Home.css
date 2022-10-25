@@ -1,3 +1,66 @@
+header{
+    background: #DCEAF5;
+    height: 703px;
+    top: 84px;
+    display: flex;
+}
+header main{
+    display: flex;
+    max-width: 1376px;
+    margin: auto;
+}
+header .left{
+    flex: 1;
+    padding-top: 117px;
+}
+header .left div{
+    max-width: 576px;
+}
+header .right{
+    flex: 1;
+}
+header div h1{
+    font-size: 64px;
+}
+header div p{
+    font-size: 18px;
+    margin-top: 12px;
+}
+header ul{
+    list-style-type: none;
+    padding: 50px 40px 56px 0px;
+    display: flex;
+    align-items: center;
+}
+header ul li:first-child{
+    background: #F58A07;
+    border-radius: 27px;
+    padding: 19px 32px;
+    color: white;
+    border: none;
+    margin-right: 40px;
+}
+#worked{
+    font-size: 18px;
+    color: #39414980;
+    margin-bottom:18px;
+    margin-top: 0;
+}
+#logo2{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+#header_image{
+max-width: 747px;
+padding-top: 58px;
+}
+
+
+
+
+
+
+
 #neg{
 
     display: flex;
@@ -343,144 +406,4 @@ left: 108px;
     position: absolute;
     left: 20px;
     top: 20px;
-}
-
-#naim{
-    background-color: #DCEAF5;
-}
-#naim_neg{
-    display: flex;
-    flex-direction: column;
-    max-width: 1280px;
-    margin: auto;
-}
-#naim h1{
-    font-size: 48px;
-    color: #0D1317;
-    margin-top: 96px;
-}
-
-#naim main{
-    margin-top: 64px;
-    margin-bottom: 96px;
-    display: flex;
-    justify-content: space-between;
-}
-.naim_column{
-    background-color: white;
-    height: 507px;
-    max-width: 400px;
-    border-radius: 20px;
-}
-.naimzurag{
-    border-radius:20px 20px 0px 0px;
-}
-.naim_column h4{
-    font-size: 24px;
-    max-width: 336px;
-    margin-left: 32px;
-    margin-top: 32px;
-    margin-bottom: 16px;
-}
-.naim_column p{
-    font-size: 16px;
-    max-width: 336px;
-    margin-left: 32px;
-    margin-bottom: 24px;
-}
-footer{
-    height: 463px;
-    background-color: #063255;
-    position: relative;
-}
-footer main{
-    max-width: 1280px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
-#hol1{
-    background: #F58A07;
-    width: 53px;
-    height: 144px;
-    border-radius: 0px 20px 0px 0px;    
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-}
-#hol2{
-    max-width: 351px;
-}
-#hol2 #finslogo{
-    margin-top: 80px;
-}
-#hol2 h2{
-    color: white;
-    font-size: 36px;
-    margin-top: 32px;
-}
-#hol2 img{
-    margin-top: 33px;
-    margin-right: 24px;
-    text-align: center;
-}
-#hol2 p{
-    color: white;
-    margin-top: 83px;
-}
-#hol3 h5{
-    font-size: 18px;
-    color: #FFFFFF;
-    margin-top: 80px;
-}
-#hol3 p{
-    margin-top: 16px;
-    color: #FFFFFF;
-}
-#hol4 h5{
-    font-size: 18px;
-    color: #FFFFFF;
-    margin-top: 80px;
-}
-#hol4 p{
-    margin-top: 16px;
-    color: #FFFFFF;
-}
-#hol5 h5{
-    font-size: 18px;
-    color: #FFFFFF;
-    margin-top: 80px;
-}
-#hol5 #email{
-    background: #FFFFFF;
-    border-radius: 31px;
-    margin-top: 24px;
-    color: #9C9C9C;
-    padding: 18px 188px 18px 32px;
-}
-#hol5 #Subscribe{
-    background: #F58A07;
-    border-radius: 31px;
-    margin-top: 16px;
-    color: white;
-    padding: 18px 32px;
-    max-width: 156px;
-}
-#hol5 p{
-    color: white;
-    text-align: right;
-    margin-top: 104px;
-    display: inline-block;
-}
-#hol5 p:nth-child(2){
-    margin-left: 32px;
-}
-#hol6{
-    background: #F58A07;
-    width: 53px;
-    height: 287px;
-    border-radius: 20px 0px 0px 20px;    
-    position: absolute;
-    top: 38px;
-    right: 0px;
 }

@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.hemjee{
+    max-width: 1280px;
+    margin: auto;
+}
+                            /* Nav ehlel */
+nav{
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+}
+nav ul li a{
+    color:#394149;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    /* list-style-type: none; */
+    margin: 16px;
+}   
+#button{
+    color: #F58A07;
+    padding: 18px 30px;
+    background: rgba(245, 138, 7, 0.1);
+    border-radius: 31px;
+}   
+
+#worked{
+    font-size: 18px;
+    color: #39414980;
+    margin-bottom:18px;
+    margin-top: 0;
+}
+#logo2{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+#header_image{
+max-width: 747px;
+padding-top: 58px;
+}
+
+                            /* Footer ehlel */
+footer{
+    height: 463px;
+    background-color: #063255;
+    position: relative;
+}
+footer main{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#hol1{
+    background: #F58A07;
+    width: 53px;
+    height: 144px;
+    border-radius: 0px 20px 0px 0px;    
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#hol2{
+    max-width: 351px;
+}
+#hol2 #finslogo{
+    margin-top: 80px;
+}
+#hol2 h2{
+    color: white;
+    font-size: 36px;
+    margin-top: 32px;
+}
+#hol2 img{
+    margin-top: 33px;
+    margin-right: 24px;
+    text-align: center;
+}
+#hol2 p{
+    color: white;
+    margin-top: 83px;
+}
+#hol3 h5{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+#hol3 p{
+    margin-top: 16px;
+    color: #FFFFFF;
+}
+#hol4 h5{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+#hol4 p{
+    margin-top: 16px;
+    color: #FFFFFF;
+}
+#hol5 h5{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 80px;
+}
+#hol5 #email{
+    background: #FFFFFF;
+    border-radius: 31px;
+    margin-top: 24px;
+    color: #9C9C9C;
+    padding: 18px 188px 18px 32px;
+}
+
+#Subscribe{
+    background: #F58A07;
+    border-radius: 31px;
+    margin-top: 16px;
+    color: white;
+    padding: 18px 32px;
+    max-width: 156px;
+}
+#hol5 p{
+    color: white;
+    text-align: right;
+    margin-top: 104px;
+    display: inline-block;
+}
+#hol5 p:nth-child(2){
+    margin-left: 32px;
+}
+#hol6{
+    background: #F58A07;
+    width: 53px;
+    height: 287px;
+    border-radius: 20px 0px 0px 20px;    
+    position: absolute;
+    top: 38px;
+    right: 0px;
+}

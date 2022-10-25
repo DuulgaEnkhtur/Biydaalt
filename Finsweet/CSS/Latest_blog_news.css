@@ -1,0 +1,43 @@
+#naim{
+    background-color: #DCEAF5;
+}
+#naim_neg{
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: auto;
+}
+#naim h1{
+    font-size: 48px;
+    color: #0D1317;
+    margin-top: 96px;
+}
+
+#naim main{
+    margin-top: 64px;
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+.naim_column{
+    background-color: white;
+    height: 507px;
+    max-width: 400px;
+    border-radius: 20px;
+}
+.naimzurag{
+    border-radius:20px 20px 0px 0px;
+}
+.naim_column h4{
+    font-size: 24px;
+    max-width: 336px;
+    margin-left: 32px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.naim_column p{
+    font-size: 16px;
+    max-width: 336px;
+    margin-left: 32px;
+    margin-bottom: 24px;
+}
