@@ -1,27 +1,27 @@
 .between{
     justify-content: space-between;
 }
-#heseg1{
+.heseg1{
     display: flex;
-    background-color: lightgrey;
+
     margin-top: 100px;
 }
-#heseg1 div h1{
+.heseg1 div h1{
     margin-top: 166px;
     max-width: 596px;
     font-size: 48px;
 }
-#heseg1 div p{
+.heseg1 div p{
     margin-top: 32px;
     max-width: 510px;
     font-size: 18px;
     margin-bottom: 48px;
 }
-#heseg1 div h2{
+.heseg1 div h2{
     color: #F58A07;
     font-size: 36px;
 }
-#heseg1 div h3{
+.heseg1 div h3{
     font-size: 24px;
 }
 #button2{
@@ -47,39 +47,39 @@ aside div{
 }
 
 
+.heseg2 p, .heseg2 h1,.heseg2 li{
+    margin-left: 77px;
+}
 
-
-
-
-#heseg2{
+.heseg2{
     display: flex;
-    background-color: lightblue;
     margin-top: 100px;
 }
-#heseg2 div h1{
+.heseg2 div h1{
     margin-top: 128px;
     max-width: 596px;
     font-size: 48px;
+    margin-left: 77px;
 }
-#heseg2 div p{
+.heseg2 div p{
     margin-top: 32px;
     max-width: 510px;
     font-size: 18px;
     margin-bottom: 48px;
+    margin-left: 77px;
 }
-#heseg2 div h2{
+.heseg2 div h2{
     color: #F58A07;
     font-size: 36px;
 }
-#heseg2 div h3{
+.heseg2 div h3{
     font-size: 24px;
 }
 
 aside{
     position: relative;
-    /* text-align: right; */
 }
-#heseg2 aside div{
+.heseg2 aside div{
     position: absolute;
     top: 128px;
     left:-48px;
@@ -90,127 +90,43 @@ aside{
     border-radius: 20px;
 }
 
-
-
-#heseg3{
+.heseg3{
     display: flex;
-    background-color: lightgrey;
+
     margin-top: 100px;
 }
-#heseg3 div h1{
+.heseg3 div h1{
     margin-top: 166px;
     max-width: 596px;
     font-size: 48px;
 }
-#heseg3 div p{
+.heseg3 div p{
     margin-top: 32px;
     max-width: 510px;
     font-size: 18px;
     margin-bottom: 48px;
 }
-#heseg3 div h2{
+.heseg3 div h2{
     color: #F58A07;
     font-size: 36px;
 }
-#heseg3 div h3{
+.heseg3 div h3{
     font-size: 24px;
 }
-#heseg3 aside{
+.heseg3 aside{
     position: relative;
     text-align: left;
 }
-#heseg3 aside div{
+.heseg3 aside div{
     position: absolute;
-    top: 128px;
-    left:48px;
+    top: 272px;
+    right:-48px;
     width: 95px;
     height: 97px;
     background: #F58A07;
     mix-blend-mode: multiply;
     border-radius: 20px;
 }
-
-
-
-#heseg4{
-    display: flex;
-    background-color: lightblue;
-    margin-top: 100px;
-}
-#heseg4 div h1{
-    margin-top: 128px;
-    max-width: 596px;
-    font-size: 48px;
-}
-#heseg4 div p{
-    margin-top: 32px;
-    max-width: 510px;
-    font-size: 18px;
-    margin-bottom: 48px;
-}
-#heseg4 div h2{
-    color: #F58A07;
-    font-size: 36px;
-}
-#heseg4 div h3{
-    font-size: 24px;
-}
-
-aside{
-    position: relative;
-    /* text-align: right; */
-}
-#heseg4 aside div{
-    position: absolute;
-    top: 128px;
-    left:-48px;
-    width: 95px;
-    height: 97px;
-    background: #F58A07;
-    mix-blend-mode: multiply;
-    border-radius: 20px;
-}
-
-#heseg5{
-    display: flex;
-    background-color: lightgrey;
-    margin-top: 100px;
-}
-#heseg5 div h1{
-    margin-top: 166px;
-    max-width: 596px;
-    font-size: 48px;
-}
-#heseg5 div p{
-    margin-top: 32px;
-    max-width: 510px;
-    font-size: 18px;
-    margin-bottom: 48px;
-}
-#heseg5 div h2{
-    color: #F58A07;
-    font-size: 36px;
-}
-#heseg5 div h3{
-    font-size: 24px;
-}
-#heseg5 aside{
-    position: relative;
-    text-align: left;
-}
-#heseg5 aside div{
-    position: absolute;
-    top: 128px;
-    left:48px;
-    width: 95px;
-    height: 97px;
-    background: #F58A07;
-    mix-blend-mode: multiply;
-    border-radius: 20px;
-}
-
-
-
 
 #doloo{
     display: flex;
@@ -252,17 +168,17 @@ aside{
 }
 
 #video{
-flex: 1;
-margin: 128px 0 128px 0;
-position: relative;
+    flex: 1;
+    margin: 128px 0 128px 0;
+    position: relative;
 }
 #video p{
-font-size: 18px;
-color: white;
-position: absolute;
-top: 426px;
-left: 108px;
-}
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 426px;
+    left: 108px;
+    }
 #playbutton{
     background: #FFFFFF;
     width: 51px;

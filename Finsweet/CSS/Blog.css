@@ -1,12 +1,22 @@
-section:nth-child(2){
+
+#vision{
     background:#DCEAF5;
+} 
+#vision{
+    padding: 128px 0px 128px 0px;
+}
+#vision main div{
+    max-width: 527px;
+    background-color: antiquewhite;
 }
 main{
     display: flex;
+    justify-content: space-between;
 }
 main div div{
     display: flex;
     text-align: center;
+    margin-top: 33px;
 }
 main div h1{
     font-size: 64px;
