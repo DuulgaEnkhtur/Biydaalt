@@ -1,0 +1,26 @@
+img:nth-child(2){
+    display: block;
+    margin-top: 129px;
+    margin-bottom: 80px;
+}
+.text_hemjee{
+    display: flex;
+    flex-direction: column;
+    max-width: 752px;
+    margin: auto;
+}
+.text_hemjee div{
+    display: flex;
+}
+.text_hemjee h1{
+    color: #1D3444;
+    font-size: 64px;
+}
+.text_hemjee h2{
+    color:#0D1317;
+    font-size: 64px;
+}
+
+.text_hemjee p{
+    margin-top: 24px;
+}

@@ -41,3 +41,13 @@
     margin-left: 32px;
     margin-bottom: 24px;
 }
+.learnmore{
+    color: #F58A07;
+    margin-top: 24px;
+}
+.learnmore::after{
+    content: "\2192";
+    color: #F58A07;
+    text-align: center;
+    margin-left: 5px;
+}

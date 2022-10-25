@@ -1,0 +1,33 @@
+section:nth-child(2){
+    background:#DCEAF5;
+}
+main{
+    display: flex;
+}
+main div div{
+    display: flex;
+    text-align: center;
+}
+main div h1{
+    font-size: 64px;
+    color: #1D3444;
+}
+main div p{
+    font-size: 18px;
+}
+
+.all_post{
+    margin-top: 128px;
+}
+.all_post h1{
+    font-size: 48px;
+}
+.naim_column{
+    background: #EDF7FF;
+    margin-top: 40px;
+}
+main:nth-child(2){
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 24px;
+}

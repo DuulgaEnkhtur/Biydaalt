@@ -1,20 +1,6 @@
-
-
-.learnmore{
-    color: #F58A07;
-    margin-top: 24px;
+.between{
+    justify-content: space-between;
 }
-.learnmore::after{
-    content: "\2192";
-    color: #F58A07;
-    text-align: center;
-    margin-left: 5px;
-}
-
-
-
-
-
 #heseg1{
     display: flex;
     background-color: lightgrey;
