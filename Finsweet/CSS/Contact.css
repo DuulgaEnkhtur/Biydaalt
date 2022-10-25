@@ -1,5 +1,8 @@
 main{
     display: flex;
+    margin-top:122px;
+    margin-bottom: 128px;
+    justify-content: space-between;
 }
 h1{
     font-size: 48px;
@@ -38,4 +41,17 @@ section{
 .map div div{
     display: flex;
     flex-direction: column;
+}
+input{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border: 0;
+    background: #D2DAED2B;
+    max-width: 628px;
+    height: 54px;
+    color: #9C9C9C;
+    padding: 17px 513px 18px 32px;
+    margin-right: 24px;
+    margin-bottom: 24px;
 }

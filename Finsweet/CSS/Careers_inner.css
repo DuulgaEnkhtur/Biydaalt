@@ -9,13 +9,10 @@ nav{
 }
 .hemjee div{
     display: flex;
-    /* flex-direction: column; */
-    /* margin: 30px; */
 }
 .hemjee div div{
     display: flex;
     flex-direction: column;
-    /* margin: 30px; */
 }
 .hemjee h1{
     font-size: 64px;
@@ -37,7 +34,8 @@ nav{
     margin-top: 16px;
 
 }
-#job p:nth-child(1){
+
+#job p:nth-child(2){
     margin-right: 284px;
 }
 .Details{
@@ -58,13 +56,11 @@ nav{
 .Details p{
     margin-right: 94px;
 }
-/* .Apply div{
-    max-width: 1280px;
-} */
+.Apply h2{
+    margin-bottom: 52px;
+}
 input{
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: space-between; */
     flex-wrap: wrap;
     border-radius: 20px;
     border: 0;
@@ -75,9 +71,7 @@ input{
     padding: 17px 513px 18px 32px;
     margin-right: 24px;
     margin-bottom: 24px;
-
 }
-#why{
+#why input{
     padding: 29px 911px 167px 32px;
-
 }

@@ -11,7 +11,7 @@
 }
 main{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 main div div{
     display: flex;
@@ -28,6 +28,7 @@ main div p{
 
 .all_post{
     margin-top: 128px;
+    margin-bottom: 128px;
 }
 .all_post h1{
     font-size: 48px;
